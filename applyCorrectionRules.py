@@ -1,4 +1,4 @@
-def substitute(operation):
+def generateMPY(operation):
     sub = [0, 1, -1]
     generated_operation = []
     result = []
