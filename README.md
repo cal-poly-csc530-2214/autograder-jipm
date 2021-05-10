@@ -14,7 +14,7 @@ Since we could not build and run Sketch, we focused on getting things working pr
 
 We wrote generateMPY function that generated MPy files to feed to sketch translator based on our EML rules. The function takes the expression to work on and assumes it's in correct syntax. For simplicity, our rule in the function was to simply leave the code as is, add 1, or subtract 1. This was for the proof of the concept to get sketch working. 
 
-Unfortunately, as mentioned above, we were not able to get Sketch working. Additionally, we had trouble converting our .mpy file into a .sk file. The translation of set-expr choices in MPY to Sketch functions was difficult for us to wrap our head around, and pushed us well past 4 hours trying to understand. That concluded our work on the project.
+Unfortunately, as mentioned above, we were not able to get Sketch working. Additionally, we had trouble converting our .mpy file into a .sk file. The translation of set-expr choices in MPY to Sketch functions was difficult for us to wrap our head around, and pushed us past our time limit trying to understand. That concluded our work on the project.
 
 To see our generated .mpy file, one can simply run the following:
 ```
