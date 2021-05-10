@@ -8,21 +8,13 @@ def addToTen():
 #     return result
 
 
-def substitute(operation, correct):
-    parsed = operation.split()
+def substitute(operation):
     sub = [1, -1, 0]
-    potential_result = []
-
-    # assuming operations is all + and is in correct format
-    user_res = int(parsed[2]) + int(parsed[4]) + int(parsed[6])
+    generated_operation = []
 
     for s in sub:
-        potential_result.append(user_res + s)
+        generated_operation.append(operation + " + " + str(s))
 
-    for value in potential_result:
-        if value == correct:
-            return True
+    return generated_operation
 
-    return False
-
-print(substitute("v = 5 + 3 + 0", 10))
+print(substitute("v = 5 + 3 + 0"))
