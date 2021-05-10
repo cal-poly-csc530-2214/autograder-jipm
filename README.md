@@ -1,5 +1,6 @@
 # autograder-jipm
 Jiwon Lee
+<br />
 Parker Mitchell
 
 We found this paper very interesting, and at-a-glance, much more approachable and digestable for us. The concept and technologies used were very interesting, and provided a very tangible application of SAT/SMT solvers for us to see.
